@@ -1184,7 +1184,7 @@
 	"babelRetainLines": 0,
 	"bowerAbbreviatedPath": "bower_components",
 	"bowerAutoCreateInfoFile": 1,
-	"bowerInstallDevDependencies": 0,
+	"bowerInstallDevDependencies": 1,
 	"bowerSaveDependencies": 1,
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
@@ -2673,7 +2673,7 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 2
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
