@@ -1,0 +1,25 @@
+{
+  "name": "innercity",
+  "version": "0.0.1",
+  "description": "innercity  theme ",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alotoftype/bones.git"
+  },
+  "author": "alotoftype",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alotoftype/bones/issues"
+  },
+  "homepage": "https://github.com/alotoftype/bones#readme"
+}
