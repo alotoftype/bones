@@ -28,7 +28,22 @@
 
 		<?php // all js scripts are loaded in library/bones.php ?>
 		<?php wp_footer(); ?>
-
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/owl.carousel.min.js"></script>
+            <script>
+                $(".owl-carousel").owlCarousel({
+                    center: true,
+                    items: 1,
+                    autoplay:true,
+                    loop:true,
+                    dots:true,
+                    responsive:{
+                        600:{
+                            items:1
+                        }
+                    }
+                });
+            </script>
 	</body>
 
 </html> <!-- end of site. what a ride! -->
