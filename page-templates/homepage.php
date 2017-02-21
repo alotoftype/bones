@@ -6,18 +6,9 @@
 
 
 <? get_header(); ?>
-<nav class="second-nav container">
-                 <div class="row">
-    <ul class="list-inline col-md-12">
-        <li><a href="#about">about</a></li>
-        <li><a href="#services">services</a></li>
-        <li><a href="#contact">contact</a></li>
-        <li><a href="#news">news</a></li>
-    </ul>
-                     </div>
-</nav>
-<section class="container">
 
+<section class="homepage-cta">
+    <div class="container-fluid">
     <?
     if(have_rows('homepage_cta')):
     ?>
@@ -28,7 +19,7 @@
             <div class="row">
             <? $img = get_sub_field('image') ?>
          <div class="col-md-3">
-             <img src="<? echo $img['url']?>" 
+             <img src="<? echo $img['url']?>"
                   alt="" class="img-responsive">
          </div>
             <div class="col-md-9">
@@ -43,7 +34,18 @@
 
      <?endif; ?>
    </div>
+    </div>
 </section>
+    <nav class="second-nav container">
+        <div class="row">
+            <ul class="list-inline col-md-12">
+                <li><a href="#about">about</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#contact">contact</a></li>
+                <li><a href="#news">news</a></li>
+            </ul>
+        </div>
+    </nav>
 <section id="about">
      <div class="container">
          <div class="row">

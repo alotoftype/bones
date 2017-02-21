@@ -130,7 +130,7 @@ function bones_scripts_and_styles() {
 
 		// register main stylesheet
         $themecsspath = get_stylesheet_directory_uri() . '/dist/css/style.min.css';
-		wp_register_style( 'bones-stylesheet', get_stylesheet_directory_uri() . '/dist/css/style.min.css', array(),
+		wp_register_style( 'bones-stylesheet', get_stylesheet_directory_uri() . '/library/css/style.css', array(),
             filemtime( $themecsspath ), 'all' );
 
 		// ie-only style sheet

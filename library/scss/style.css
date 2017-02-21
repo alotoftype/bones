@@ -459,39 +459,16 @@ Here's a great tutorial on how to
 use color variables properly:
 http://sachagreif.com/sass-color-variables/
 */
+.homepage-cta {
+  background: #bb2a2a; }
+
 #about, #services, #contact, #news {
-  height: 200px; }
+  height: 300px; }
 
-a.nav-expander {
-  background: none repeat scroll 0 0 #000000;
-  color: #FFFFFF;
-  display: block;
-  font-size: 15px;
-  font-weight: 400;
-  height: 50px;
-  margin-right: 0;
-  padding: 1em 1.6em 2em;
-  position: absolute;
-  right: 0;
-  text-decoration: none;
-  text-transform: uppercase;
-  top: 0;
-  transition: right 0.3s ease-in-out 0s;
-  width: 130px;
-  z-index: 12;
-  transition: right 0.3s ease-in-out 0s;
-  -webkit-transition: right 0.3s ease-in-out 0s;
-  -moz-transition: right 0.3s ease-in-out 0s;
-  -o-transition: right 0.3s ease-in-out 0s; }
-
-a.nav-expander:hover {
-  cursor: pointer; }
-
-a.nav-expander.fixed {
-  position: fixed; }
-
-.nav-expanded a.nav-expander.fixed {
-  right: 20em; }
+.header {
+  background: blue url("../images/city.jpg") no-repeat;
+  background-size: cover;
+  height: 450px; }
 
 /******************************************************************
 Site Name:
